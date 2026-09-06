@@ -265,7 +265,7 @@ body::before{
 
 /* ---------- Responsive ---------- */
 @media (max-width:768px){
-  .hero-title .accent{-webkit-text-stroke:1.2px var(--red);text-shadow:0 0 30px rgba(230,36,41,.35)}
+  .hero-title .accent{color:var(--red);-webkit-text-stroke:0;text-shadow:none}
 }
 @media (max-width:900px){
   .about-grid,.skills-grid,.case-grid,.edu-grid{grid-template-columns:1fr}
@@ -285,7 +285,6 @@ body::before{
   .hero-stats{grid-template-columns:1fr 1fr}
   .about-facts{grid-template-columns:1fr}
   .stat-num{font-size:2.1rem}
-  .hero-title .accent{-webkit-text-stroke:0.8px var(--red);text-shadow:0 0 20px rgba(230,36,41,.25)}
 }
 
 @media (prefers-reduced-motion:reduce){
