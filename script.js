@@ -173,37 +173,67 @@
   /* ---------- Case studies content + modal ---------- */
   var CASES = {
     1: {
-      tag: 'Product · Clinical Workflow',
+      tag: 'Market · Evidence · Product',
       title: 'Where AI Could Actually Help in Cardiology',
-      tagline: 'A practical product view from someone who has studied the science and sat close to the commercial reality.',
+      tagline: 'Cardiology now has 140+ FDA-cleared AI algorithms. Four concrete areas where the evidence is concrete, not speculative.',
       metrics: [
-        ['Start here', 'With the workflow'],
-        ['Prove value', 'Before adding features'],
-        ['Human-led', 'Clinical decision support']
+        ['140+', 'FDA-cleared algorithms'],
+        ['4 areas', 'With proven evidence'],
+        ['Speed & equity', 'The real wins']
       ],
       html:
-        '<h4>My starting point</h4>' +
-        '<p>With a B.Pharm and M.Pharm lens, I do not start with the algorithm. I start with the clinical decision: where is a cardiologist losing time, confidence or consistency, and what would make them trust a tool during a real case?</p>' +
-        '<h4>The problem I would investigate</h4>' +
-        '<p>In coronary imaging, the pain is rarely “we need more data”. Teams already have angiography, CTA and intravascular imaging. The harder problem is turning those images into a decision quickly, especially when a lesion is calcified or the measurements are borderline.</p>' +
+        '<h4>The State of Play (Mid-2026)</h4>' +
+        '<p>Cardiology ranks second only to radiology in FDA-cleared AI algorithms, with the tally past 140 dedicated cardiology clearances (and over 200 once cardiac-specific imaging tools are included). A total of 29 new cardiology AI products were cleared over one recent seven-month review period alone, part of an average pace of roughly 200 AI approvals per year across medicine.</p>' +
+        '<p>But volume does not equal value. This case study focuses on four areas where the evidence is concrete rather than speculative: coronary stenting, cardiac imaging and diagnosis, telemedicine and remote monitoring, and robot-assisted cardiac surgery. In each, the pattern is similar — AI is not replacing the cardiologist, but narrowing the gap between average and expert performance, compressing procedure and diagnosis time, and catching disease earlier.</p>' +
+        '<h4>1. Stents and Percutaneous Coronary Intervention (PCI)</h4>' +
+        '<p><strong>The problem:</strong> Coronary stenting is one of the highest-volume procedures in medicine (70–90% of roughly 1.3M PCIs annually in the US), yet stenting technique and stent size have relied on general rules rather than personalization, since standard angiography cannot generate true 3D vessel images.</p>' +
+        '<p><strong>What AI is changing:</strong></p>' +
         '<ul>' +
-        '<li>Different clinicians can interpret the same image differently.</li>' +
-        '<li>Manual measurements slow down already pressured cath-lab workflows.</li>' +
-        '<li>Calcium, vessel sizing and lesion length can materially change the device choice.</li>' +
-        '<li>A report that is hard to explain or verify will not survive clinical adoption.</li>' +
+        '<li><strong>Sizing and expansion accuracy:</strong> Abbott\'s AVVIGO+ platform on intravascular ultrasound (IVUS) demonstrated improved detection of suboptimal stent expansion vs. experienced interventional cardiologists, while significantly cutting analysis time.</li>' +
+        '<li><strong>Procedure speed in emergencies:</strong> A 2026 retrospective study found AI-assisted quantitative coronary angiography shortened overall STEMI procedure time without increasing contrast dye use — a real gain, since faster reperfusion directly affects outcomes.</li>' +
+        '<li><strong>Democratizing expertise:</strong> Optical coherence tomography (OCT) can guide precise stent placement but takes years to read well. At EuroPCR 2026, researchers reported AI assistance increased clinician confidence in OCT-guided PCI decisions, with the biggest gains among less experienced users — after AI support, confidence differences between experienced and low-experience operators effectively disappeared.</li>' +
+        '<li><strong>Regulatory momentum:</strong> In April 2026, Abbott\'s next-generation platform received FDA clearance and CE Mark, integrating high-resolution coronary plaque imaging with AI-automated insights to guide stent sizing in real time during PCI.</li>' +
         '</ul>' +
-        '<h4>What I would build first</h4>' +
-        '<p>I would keep the first release deliberately narrow: automated vessel and lesion measurements, a clear calcium view, and a structured report that the physician can check rather than blindly accept. The product should sit inside the existing workflow, not ask the cath-lab team to learn a new universe.</p>' +
-        '<h4>What would make me cautious</h4>' +
-        '<p>Accuracy on a demo dataset is not enough. I would want evidence across scanners, hospitals, image quality and patient groups, with a visible “I am not confident” state. Regulatory claims, PACS integration, data privacy and the human-in-the-loop design are part of the product, not paperwork after launch.</p>' +
-        '<h4>How I would measure it</h4>' +
-        '<div class="modal-metrics">' +
-        '<div class="mm"><b>Time saved</b><span>Per study and report</span></div>' +
-        '<div class="mm"><b>Clinical agreement</b><span>Against expert review</span></div>' +
-        '<div class="mm"><b>Repeat use</b><span>Studies per site</span></div>' +
-        '</div>' +
-        '<p>The first success signal is not a flashy accuracy number. It is a cardiologist using the output in the next case, a technician spending less time reworking reports, and a hospital seeing enough value to renew.</p>' +
-        '<p class="modal-disclaimer">Illustrative product case based on publicly available clinical and market context. It is a product perspective, not medical advice.</p>'
+        '<p><em>Honest caveat:</em> AI measurements tend to be more conservative than expert human readings, with potential systematic underestimation — a reminder that these tools are decision-support, not autonomous decision-makers.</p>' +
+        '<h4>2. Cardiac Imaging and Diagnosis</h4>' +
+        '<p><strong>The shift:</strong> Imaging is arguably where cardiology AI is most mature, because the specialty produces enormous volumes of structured visual data (ECGs, echocardiograms, CT, MRI) that lend themselves to pattern recognition.</p>' +
+        '<p><strong>Notable developments:</strong></p>' +
+        '<ul>' +
+        '<li><strong>Screening upstream with routine ECGs:</strong> In June 2026, the FDA cleared EchoNext, the first AI model to detect six forms of structural heart disease by analyzing a standard ECG rather than requiring an echocardiogram. In a real-world deployment across 85,000 patients, the model flagged 9% as high-risk for previously undiagnosed structural heart disease; among those who then received an echocardiogram, nearly three-quarters were confirmed to have disease — roughly double the diagnostic yield of standard referral patterns.</li>' +
+        '<li><strong>Faster, standardized echo reports:</strong> AI echo platforms now generate full structured reports automatically, significantly shortening diagnosis time, reducing staff workload, and limiting errors.</li>' +
+        '<li><strong>Breadth of clinical tasks:</strong> By mid-2026, FDA-cleared algorithms covered detection of cardiovascular findings in images, improving angiography image quality, electrophysiology ablation guidance, and automated quantification of echocardiography exams.</li>' +
+        '<li><strong>Resolving ambiguity:</strong> Trials are underway to validate AI models on tasks such as distinguishing severe from moderate low-gradient aortic stenosis, an area where manual grading is often ambiguous and where a validated AI model could support more consistent diagnosis.</li>' +
+        '</ul>' +
+        '<p><em>Why this matters:</em> Structural and valve disease are frequently silent until advanced. Pushing detection upstream into a $20 test (ECG) that most patients already get is a genuinely different care model, not just a faster version of the old one.</p>' +
+        '<h4>3. Telemedicine and Remote Monitoring</h4>' +
+        '<p><strong>The link:</strong> The connection between AI and telecardiology is less about video visits and more about continuous, AI-interpreted physiological data replacing periodic in-clinic snapshots — particularly for heart failure and arrhythmia management.</p>' +
+        '<p><strong>What the evidence shows:</strong></p>' +
+        '<ul>' +
+        '<li><strong>Hospitalizations reduced:</strong> A 2026 narrative review concluded remote monitoring reduces mortality and hospitalizations in heart failure, offers cost-effectiveness benefits, and creates the potential to optimize care further by integrating AI.</li>' +
+        '<li><strong>Invasive-quality insight from wearables:</strong> The SEISMIC-HF study showed a machine learning model using a non-invasive wearable sensor patch could estimate pulmonary capillary wedge pressure — a key heart failure metric — with significant correlation to the gold-standard invasive measurement.</li>' +
+        '<li><strong>High accuracy for arrhythmias:</strong> A 2026 review of AI-integrated wearables found high diagnostic accuracy for arrhythmia detection and promising outcomes in heart failure monitoring, particularly for FDA- or CE-approved devices.</li>' +
+        '<li><strong>AI as intelligent triage:</strong> A 2026 study on autonomous AI agents in remote patient monitoring addressed a real operational bottleneck — nurses drowning in monitoring alerts — by using AI to sort signal from noise and shorten time from alert to clinical decision.</li>' +
+        '<li><strong>Continuous monitoring for high-risk genotypes:</strong> For patients with high-risk inherited cardiomyopathy, traditional intermittent ECG surveillance is insufficient to capture dynamic electrical instability, motivating a shift toward AI-enabled continuous sensor monitoring.</li>' +
+        '</ul>' +
+        '<p><em>Honest caveat:</em> This is the area with the widest gap between promising signal and large-scale proof. Most positive studies are still small and short. The realistic read: remote AI monitoring is good at flagging <em>who needs a closer look sooner</em>, not yet the sole basis for major treatment decisions.</p>' +
+        '<h4>4. Robot-Guided Cardiac Surgery</h4>' +
+        '<p><strong>What\'s clear:</strong> Robotic cardiac surgery itself is well-established; the more interesting story in 2026 is what AI is layering on top of already-teleoperated robotic platforms.</p>' +
+        '<ul>' +
+        '<li><strong>Robotics is mature; full AI autonomy is not:</strong> A 2026 review is direct: robotic surgery is well established in procedures such as robotic-assisted CABG and mitral valve repair, but systems remain largely tele-operated, with AI integration expected to shift toward smart, semi-autonomous assistants rather than replace the surgeon.</li>' +
+        '<li><strong>AI-assisted perception and guidance:</strong> Emerging AI-driven guidance systems may warn as instruments approach critical structures, potentially reducing avoidable injuries, improving suture placement, and increasing reproducibility during minimally invasive cardiac surgery.</li>' +
+        '<li><strong>Robotic guidewire navigation:</strong> A 2026 preclinical framework demonstrated AI-driven control of a robotic PCI platform integrating fluoroscopic perception, vessel position modeling, and automated robot-executable guidewire commands — early groundwork toward reducing operator radiation exposure.</li>' +
+        '<li><strong>Established baseline:</strong> Independent of AI, robotic heart surgery shows shorter operating times, reduced blood loss, low conversion rates to open surgery, fewer postoperative complications, and shorter hospital stays compared with conventional approaches — the baseline AI is being layered onto.</li>' +
+        '<li><strong>Digital twins still aspirational:</strong> Fully automated digital twins for cardiopulmonary bypass remain largely theoretical, with a practical constraint: in complex robotic-assisted procedures, a surgeon\'s real-time options are limited by anatomy, so any AI warning system has to be genuinely actionable.</li>' +
+        '</ul>' +
+        '<p><em>Honest caveat:</em> This is the least mature area for AI specifically. Expect incremental gains — better visualization, safety alerts, suture guidance — well before anything resembling autonomous operation.</p>' +
+        '<h4>Cross-Cutting Themes</h4>' +
+        '<ol>' +
+        '<li><strong>AI\'s clearest win is narrowing the expertise gap.</strong> The biggest measured benefit repeatedly goes to less-experienced operators and lower-resource settings — this may matter more for equity of care than headline accuracy at top centers.</li>' +
+        '<li><strong>Speed and consistency, not just "better than the doctor."</strong> Several of the strongest results (STEMI procedure time, IVUS analysis, echo report turnaround) are about workflow efficiency, which is easier to prove and adopt than claims of superior clinical judgment.</li>' +
+        '<li><strong>Screening upstream is the biggest structural shift.</strong> EchoNext repurposing a routine ECG to catch silent structural heart disease is a genuinely new care pathway, not an incremental improvement on an old one.</li>' +
+        '<li><strong>Regulatory clearance is accelerating faster than long-term evidence.</strong> With well over 100 cardiology-specific FDA clearances and growing investment, the pace of approval is outrunning the pace of real-world outcomes data — a gap worth watching rather than assuming away.</li>' +
+        '</ol>' +
+        '<p class="modal-disclaimer">Case study based on FDA clearances, peer-reviewed studies, and presentations through mid-2026. References available in full documentation.</p>'
     },
     2: {
       tag: 'Commercialization · GCC',
