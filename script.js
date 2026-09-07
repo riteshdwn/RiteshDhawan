@@ -232,67 +232,97 @@
         '<li><strong>Speed and consistency, not just "better than the doctor."</strong> Several of the strongest results (STEMI procedure time, IVUS analysis, echo report turnaround) are about workflow efficiency, which is easier to prove and adopt than claims of superior clinical judgment.</li>' +
         '<li><strong>Screening upstream is the biggest structural shift.</strong> EchoNext repurposing a routine ECG to catch silent structural heart disease is a genuinely new care pathway, not an incremental improvement on an old one.</li>' +
         '<li><strong>Regulatory clearance is accelerating faster than long-term evidence.</strong> With well over 100 cardiology-specific FDA clearances and growing investment, the pace of approval is outrunning the pace of real-world outcomes data — a gap worth watching rather than assuming away.</li>' +
-        '</ol>' +
-        '<p class="modal-disclaimer">Case study based on FDA clearances, peer-reviewed studies, and presentations through mid-2026. References available in full documentation.</p>'
+        '</ol>' 
     },
     2: {
-      tag: 'Commercialization · GCC',
+      tag: 'Market · Regulatory · GCC',
       title: 'Taking a Coronary Stent Into the GCC',
-      tagline: 'Registration opens the door. Trust, evidence and execution create the business.',
+      tagline: 'The opportunity is real, but the execution is what determines whether it becomes a business or a brochure.',
       metrics: [
-        ['UAE + KSA', 'Practical starting point'],
-        ['Evidence', 'Before scale'],
-        ['Local partner', 'Critical to execution']
+        ['$7–10B', 'Global stent market'],
+        ['82%', 'DES share of revenue'],
+        ['UAE + KSA', 'Best entry path']
       ],
       html:
-        '<h4>The question I would ask first</h4>' +
-        '<p>Is this stent genuinely better for a defined patient or procedure, or is it simply another product looking for shelf space? </p>' +
-        '<h4>Start with a focused beachhead</h4>' +
-        '<p>I would begin with the UAE and Saudi Arabia, but I would not treat the GCC as one market. I would map cath-lab volumes, clinical influence, procurement route, regulatory requirements and the distributor relationships that already exist. A short list of the right centres is more useful than a long list of logos.</p>' +
-        '<h4>Earn the first implants</h4>' +
-        '<p>The first objective is not maximum volume. It is a small group of credible physicians who are willing to use the product, discuss where it fits and document the early experience honestly. That means proper product training, case support, clear positioning against incumbent DES and fast feedback when something does not work.</p>' +
-        '<h4>Make the business model realistic</h4>' +
+        '<h4>Market context and current share</h4>' +
+        '<p>Market sizing varies by research firm, but most estimates place the global coronary stent market between $7.3B and $10.7B in 2025–26, growing at a CAGR in the 5–7% range through the early 2030s. Drug-eluting stents (DES) dominate globally, holding around 82% of product-type revenue. The Middle East and Africa region is consistently flagged by market researchers as one of the fastest-growing coronary stent geographies, even though it remains a fraction of the size of North America or Europe. Analysts credit this to rising cardiovascular disease rates, improving healthcare access, and economic development, particularly in GCC countries — with growing DES use in the UAE and Saudi Arabia cited as a direct driver.</p>' +
+        '<p>Globally, three companies dominate: Medtronic, Boston Scientific, and Abbott together represent a combined share exceeding 75% of the DES market as of 2025. In the GCC specifically, this dominance largely carries through — these three, plus Biotronik and Terumo, run the majority of hospital and cath-lab tenders across Saudi Arabia and the UAE, distributing through local authorized representatives rather than direct subsidiaries in most cases. However, the region is also an entry point for lower-cost challengers: in September 2024, India\'s largest coronary stent manufacturer, Translumina Therapeutics, launched operations in the UAE specifically to use it as a springboard into the broader Middle East, aiming to replicate its India pricing model. This is a live signal that the incumbent "Big 3" moat is not unbreakable in this region — pricing sensitivity and tender structures leave room for challenger brands.</p>' +
+        '<h4>Why demand is rising</h4>' +
+        '<p>Unlike mature Western markets where growth is driven mainly by an aging population and technology refresh cycles, GCC demand growth has a different, more urgent shape.</p>' +
         '<ul>' +
-        '<li>Build the registration and Arabic labelling plan early.</li>' +
-        '<li>Choose a partner for access, regulatory capability and inventory discipline, not just enthusiasm.</li>' +
-        '<li>Set pricing around value per implant and total procedural economics.</li>' +
-        '<li>Prepare for private-account adoption and tender pathways as different motions.</li>' +
+        '<li><strong>A younger population getting sicker faster.</strong> A 2026 study of primary care attendees in Makkah found roughly two-thirds overweight or obese, with meaningful hypertension and diabetes rates in a population that skews younger than in the US or Europe. This means a growing base of patients entering the CAD/PCI pipeline over the next 10–20 years, not just an aging cohort needing stents now.</li>' +
+        '<li><strong>Rapid urbanization and lifestyle shift.</strong> National reviews of cardiovascular disease in Saudi Arabia point to rapid urbanization and large shifts in diet and activity levels as structural drivers, with hypertension and hyperlipidemia prevalence rising broadly across the adult population.</li>' +
+        '<li><strong>Government-funded healthcare expansion.</strong> Saudi Vision 2030 and the UAE\'s continued investment in tertiary and quaternary cardiac care (Cleveland Clinic Abu Dhabi, Mediclinic, King Faisal Specialist Hospital network, and others) are actively expanding cath lab capacity and PCI volumes ahead of this demand curve.</li>' +
+        '<li><strong>Regional hub status.</strong> The UAE is developing as a medical tourism and regional referral hub for interventional cardiology, drawing patients from across the wider Gulf, North Africa, and South Asia — pushing procedure volumes above what domestic demand alone would generate.</li>' +
         '</ul>' +
-        '<h4>What I would watch every month</h4>' +
-        '<div class="modal-metrics">' +
-        '<div class="mm"><b>First implants</b><span>Converted priority centres</span></div>' +
-        '<div class="mm"><b>Reorders</b><span>Proof of product fit</span></div>' +
-        '<div class="mm"><b>Stock health</b><span>Availability without waste</span></div>' +
-        '</div>' +
-        '<p>A launch is working when the product moves from “interesting new option” to a considered choice in a physician\'s usual practice, and the distributor can support that growth without breaking service or price discipline.</p>' +
-        '<p class="modal-disclaimer">Hypothetical commercialization case. Regulatory and market details should be validated against current UAE and Saudi Arabia requirements.</p>'
+        '<h4>Technologies and devices actually in use</h4>' +
+        '<p>GCC cath labs are not a "legacy" market running older-generation devices — most major centers in Riyadh, Jeddah, Dubai, and Abu Dhabi run on the same current-generation platforms used in the US and Europe, procured through the same global manufacturers.</p>' +
+        '<p><strong>Stent types in active use:</strong> Second/third-generation DES dominate, consistent with the ~82% global product share for DES. Commonly deployed platforms mirror the global "Big 3" lineup: Abbott\'s XIENCE family (everolimus-eluting), Medtronic\'s Resolute Onyx / Onyx Frontier (zotarolimus-eluting), and Boston Scientific\'s Synergy (bioabsorbable-polymer everolimus-eluting). Biodegradable-polymer DES such as Biotronik\'s Orsiro have gained traction as centers seek to reduce long-term inflammation risk versus older durable-polymer designs. Bare-metal stents persist in a shrinking niche — mainly for high-bleeding-risk patients or cost-constrained public facilities. Bioresorbable scaffolds remain a smaller, more experimental category, used selectively in complex lesion subsets as second-generation designs address the safety issues that limited first-generation versions.</p>' +
+        '<p><strong>Balloons and adjunct technology:</strong> Drug-coated balloons, mainly paclitaxel-coated, are increasingly used for in-stent restenosis and select de novo small-vessel lesions, following the same "leave nothing behind" trend seen in Europe. Boston Scientific\'s Agent DCB and similar platforms from Medtronic and B. Braun are part of this shift. Intravascular imaging (IVUS/OCT) adoption is rising in higher-volume GCC centers, with AI-assisted platforms like Abbott\'s Ultreon being adopted by leading Saudi and UAE tertiary centers to standardize stent sizing and placement as they compete for accreditation and outcomes reporting. Radial access and thin-strut delivery systems are now largely standard of care at major centers, and AI-assisted quantitative coronary angiography (QCA) is beginning to appear in flagship centers focused on cutting STEMI door-to-balloon times.</p>' +
+        '<p><strong>Practical implication for a new entrant:</strong> The GCC is not a market to enter with a stripped-down or older-generation product. Tenders at leading centers increasingly specify current-generation DES with imaging-compatible profiles, and hospitals are willing to pay a premium for devices with strong registry data — but there is also a genuine, price-sensitive tier (public hospitals, secondary cities, some insurance-driven tenders) where cost-competitive challengers like Translumina and other Asian manufacturers are gaining ground.</p>' +
+        '<h4>Regulatory pathway</h4>' +
+        '<ul>' +
+        '<li><strong>GCC-wide registration (GCC DR).</strong> In theory, a single GCC Central Registration Product (CRP) or GCC DR submission can support access across all six member states. In practice, Saudi Arabia\'s SFDA and the UAE\'s device authority are the most active and developed regulators, frequently serving as lead reviewers. Target review timelines are 90–180 days, but actual timelines can extend to 12 months or more for implantable Class III/high-risk devices like coronary stents.</li>' +
+        '<li><strong>Saudi Arabia (SFDA).</strong> SFDA has been raising registration fees and issuing more detailed guidance documents (the MDS-G and MDS-REQ series), signaling a market that is professionalizing its device oversight rather than staying a light-touch environment.</li>' +
+        '<li><strong>UAE — a recent structural change.</strong> The UAE has shifted device registration authority from MOHAP to a newer entity, EDE (via the ede.gov.ae portal), which now manages product registration, renewals, variations, pharmacovigilance, and post-market compliance. Northern Emirates facilities are still MOHAP-licensed but use EDE-registered devices. Registrations run for five years, with renewal required at least three months before expiry, and Class III/IV devices face biannual Periodic Safety Update Report requirements.</li>' +
+        '<li><strong>A foreign manufacturer cannot register directly.</strong> Both SFDA and UAE frameworks require appointing a locally licensed Authorized Representative to submit and manage the registration dossier — this local partner also typically becomes the commercial distributor of record, making the choice a combined regulatory and go-to-market decision, not just a compliance formality.</li>' +
+        '<li><strong>The smaller GCC states are tightening too.</strong> Oman introduced a mandatory Class C/D registration deadline in July 2026, and Bahrain moved to mandatory registration enforcement in February 2026 — markets that manufacturers could previously supply with minimal formal registration are closing that gap.</li>' +
+        '</ul>' +
+        '<h4>Go-to-market considerations for a new entrant</h4>' +
+        '<ul>' +
+        '<li><strong>Lead with Saudi Arabia and the UAE.</strong> They have the largest procedure volumes, the most developed regulatory pathways, the most active lead-reviewer role in the regional GCC DR system, and the deepest tertiary care infrastructure to generate clinical champions and registry data.</li>' +
+        '<li><strong>Decide early whether you\'re competing on premium technology or price.</strong> The "Big 3" (Abbott, Medtronic, Boston Scientific) own the premium, imaging-integrated tier at flagship hospitals. Entrants without that R&D depth have a more realistic opening in the price-sensitive public-hospital and secondary-city tender segment — the lane Translumina explicitly targeted with its 2024 UAE launch.</li>' +
+        '<li><strong>Budget realistic regulatory timelines.</strong> Treat 12 months as the planning baseline for high-risk device registration, not the optimistic 90–180 day target, and start the Authorized Representative selection process well before finalizing commercial agreements, since that partner shapes both compliance and distribution.</li>' +
+        '<li><strong>Plan for imaging and workflow integration, not just the device.</strong> As leading centers adopt AI-assisted OCT/IVUS and AI-guided QCA, a stent well-supported by imaging-guided sizing data and compatible workflows will have an easier time winning flagship-hospital tenders than one marketed purely on price or basic clinical equivalence.</li>' +
+        '<li><strong>Don\'t underestimate the smaller Gulf states.</strong> Oman and Bahrain\'s move to mandatory registration in 2026 means the days of informally supplying these markets are ending — a compliant multi-country strategy from day one avoids having to retrofit registrations later.</li>' +
+        '</ul>' 
     },
+
     3: {
       tag: 'Market · Innovation Study',
       title: 'What Stent Innovation Changed',
-      tagline: 'The market story through a pharmacy-trained product manager\'s eyes.',
+      tagline: 'From bare-metal to drug-eluting to indigenous bioresorbable — a market shaped as much by policy as by biology.',
       metrics: [
-        ['Clinical need', 'Drives meaningful change'],
-        ['Evidence', 'Builds confidence'],
-        ['Whole procedure', 'Where value is moving']
+        ['DES share today', '~90% of Indian angioplasties'],
+        ['2017 NPPA cap', 'Cut prices up to 85%'],
+        ['Domestic play', 'Meril\'s MeRes100 BRS']
       ],
       html:
-        '<h4>Innovation is usually a response</h4>' +
-        '<p>When I look at stent history through a B.Pharm and M.Pharm lens, the pattern is clear: each meaningful shift responded to a real limitation. Bare-metal stents addressed recoil. Drug-eluting stents reduced restenosis. Newer designs worked on healing, deliverability and safety. The lesson is useful beyond cardiology: technology matters when it removes a problem people already feel.</p>' +
-        '<h4>What changed across generations</h4>' +
+        '<h4>Act One: The bare-metal stent era</h4>' +
+        '<p>Bare metal stents — simple metal scaffolds, usually stainless steel or cobalt-chromium — were the first real solution to a mechanical problem: arteries re-narrowing or collapsing after balloon angioplasty. BMS kept the vessel open, but the metal surface itself triggered tissue overgrowth (neointimal hyperplasia), and restenosis showed up in 20–30% of patients within 6–12 months. Through the 1990s and early 2000s, BMS was the default in Indian cath labs — low-cost and mechanically reliable, but leaving a real clinical gap: a purely mechanical fix wasn\'t enough. The biological response to the implant still needed to be controlled.</p>' +
+
+        '<h4>Act Two: The drug-eluting stent revolution</h4>' +
+        '<p>DES innovation layered a pharmacological solution onto the mechanical one: a polymer coating releases an anti-proliferative drug — initially sirolimus or paclitaxel — directly into the vessel wall, suppressing the overgrowth that caused restenosis in BMS. This is the single biggest inflection point in the category, and it played out in India in distinct waves.</p>' +
         '<ul>' +
-        '<li><strong>Bare-metal stents:</strong> solved the immediate mechanical problem, but repeat restenosis remained.</li>' +
-        '<li><strong>First-generation drug-eluting stents:</strong> reduced restenosis, while introducing new questions around healing and long-term safety.</li>' +
-        '<li><strong>Second-generation DES:</strong> improved polymers, strut profiles and deliverability, becoming the practical standard in many settings.</li>' +
-        '<li><strong>Current direction:</strong> ultra-thin struts, polymer choices, imaging, physiology and calcium-modification tools are increasingly part of one treatment decision.</li>' +
+        '<li><strong>First-generation DES (early-to-mid 2000s):</strong> sirolimus- and paclitaxel-eluting stents on durable polymers, mostly imported. Expensive, and adoption was initially limited to metros and private hospitals.</li>' +
+        '<li><strong>Second-generation DES (late 2000s–2010s):</strong> everolimus- and zotarolimus-eluting stents, thinner struts, better biocompatible polymers, lower late-thrombosis risk — this is when DES adoption really scaled in India.</li>' +
+        '<li><strong>Biodegradable-polymer DES (2010s):</strong> the polymer itself dissolves after releasing its drug payload, leaving a bare-metal-like surface behind. This became a major segment for Indian manufacturers.</li>' +
         '</ul>' +
-        '<h4>My commercial read</h4>' +
-        '<p>Once products become clinically comparable, the conversation moves away from a single feature. Physicians care about deliverability and confidence. Hospitals care about outcomes, training, inventory and total procedural cost. Distributors care about repeatability and support. A strong product story has to connect all three.</p>' +
-        '<h4>Where I see room to build</h4>' +
-        '<p>I would not try to out-shout established DES brands with another list of specifications. I would choose a defined problem, such as calcified lesions or difficult delivery, and build a connected offer around it: vessel preparation, imaging support, the stent itself and education that helps the team use the pathway well.</p>' +
-        '<h4>The PM takeaway</h4>' +
-        '<p>Good MedTech product work sits between science and business. You need enough clinical depth to understand what matters, enough commercial discipline to price and distribute it, and enough humility to test whether the market agrees with your theory.</p>' +
-        '<p class="modal-disclaimer">Market perspective based on publicly documented interventional-cardiology milestones. Product and company references are illustrative.</p>'
+        '<p>By the time India\'s drug pricing regulator moved to cap prices in 2017, drug-eluting stents already accounted for roughly 90% of angioplasties performed in the country — a near-total displacement of BMS as the default, now reserved mainly for high-bleeding-risk patients who can\'t tolerate prolonged dual antiplatelet therapy.</p>' +
+
+        '<h4>Act Three: Bioresorbable scaffolds and India\'s own innovation story</h4>' +
+        '<p>The next conceptual leap tried to solve a problem DES itself created: a permanent metal cage left in the artery forever, even after it has done its job. Bioresorbable Vascular Scaffolds (BVS) are designed to provide temporary support and drug delivery, then fully dissolve over 2–3 years, restoring the vessel\'s natural function.</p>' +
+        '<p>Globally, this is where the story shifted geography. Abbott\'s pioneering Absorb BVS struggled clinically and quietly disappeared from Indian cath lab shelves once price controls made the economics unworkable for a premium imported device. Into that gap stepped Meril Life Sciences, based in Vapi, Gujarat. Its MeRes100 — a sirolimus-eluting bioresorbable scaffold — was approved by India\'s drug regulator (CDSCO) in 2017, developed entirely in-house. Because it was indigenously researched, manufactured and patented under the Indian Patent Act, Meril applied for — and in February 2020 was granted — a rare five-year exemption from NPPA price controls, a carve-out designed specifically to reward genuine domestic innovation rather than import substitution. This is arguably the most important strategic shift in the story: India moved from being a price-taking importer of stent technology to producing its own frontier device.</p>' +
+
+        '<h4>The regulatory shock: NPPA price caps as an innovation forcing function</h4>' +
+        '<p>On February 13, 2017, India\'s National Pharmaceutical Pricing Authority fixed price ceilings at ₹7,260 for bare-metal stents and ₹29,600 for drug-eluting stents (roughly $108 and $444), after stents were added to the National List of Essential Medicines. This triggered immediate price cuts of up to 85% in some cases — a massive shock to an industry built around premium imported pricing.</p>' +
+        '<ul>' +
+        '<li><strong>Positive:</strong> cardiac stenting became dramatically more affordable, reinforcing India\'s position as a low-cost, high-quality cardiac care hub.</li>' +
+        '<li><strong>Negative, short-term:</strong> Abbott, Medtronic and Boston Scientific all filed to withdraw their newest-generation stents from India rather than sell at capped prices, temporarily narrowing what was available to patients.</li>' +
+        '<li><strong>Adaptive:</strong> the government responded with an innovation exemption mechanism (Para 32(ii) of the Drug Price Control Order) that let genuinely indigenous, patented devices like MeRes100 escape the cap — protecting domestic R&D incentives while keeping standard-device prices low.</li>' +
+        '</ul>' +
+        '<p>By 2026, prices have been adjusted modestly upward — bare-metal around ₹7,900, DES/BVS around ₹28,800 — but remain a fraction of pre-2017 levels.</p>' +
+
+        '<h4>Where the market stands today</h4>' +
+        '<p>Drug-eluting stents account for roughly 75–77% of the coronary stent market by product type globally, and an even higher share of procedures in India specifically. Bare-metal stents persist mainly as a lower-cost option and for patients where prolonged blood-thinning therapy is risky — a durable but shrinking niche rather than a disappearing category. Newer entrants keep raising the bar: Abbott launched its XIENCE Sierra everolimus-eluting stent in the Indian market in May 2024, and domestic players — Meril, SMT/Sahajanand, Translumina, Vascular Concepts — continue competing on next-generation ultra-thin-strut and bioresorbable platforms. Strategic collaborations between international and domestic manufacturers have widened availability and sharpened price competition, reinforcing DES\'s leadership position going forward.</p>' +
+
+        '<h4>Key takeaways</h4>' +
+        '<ul>' +
+        '<li><strong>Innovation compounds in layers, not leaps:</strong> mechanical fix (BMS) → biological fix layered on top (DES) → structural fix that removes the original mechanical element altogether (BVS). Each generation solved the side-effect created by the one before it.</li>' +
+        '<li><strong>Price regulation cuts both ways:</strong> NPPA\'s 2017 caps expanded access dramatically but temporarily chased premium global technology out of the market — until a targeted exemption for genuine domestic R&D showed regulators could protect both affordability and frontier innovation.</li>' +
+        '<li><strong>Crisis created a domestic opening:</strong> when multinationals pulled premium products, an Indian manufacturer filled the vacuum with a genuinely novel, patented device — policy-induced import substitution turning into real technological leadership.</li>' +
+        '<li><strong>The frontier keeps moving:</strong> ultra-thin-strut everolimus stents, biodegradable-polymer DES and bioresorbable scaffolds are all still competing for the next layer of share — the category isn\'t done evolving.</li>' +
+        '</ul>'
     }
   };
 
